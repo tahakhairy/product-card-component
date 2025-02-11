@@ -21,8 +21,17 @@ const favorites = ref<Product[]>(
 
 const { addToCart } = useCartStore();
 
-const addToFavorite = (product: Product) => {
-  favorites.value.push(product);
+const toggleFavorite = (product: Product) => {
+  const favoriteProduct = favorites.value.find(
+    (item) => item.id === product.id,
+  );
+
+  if (favoriteProduct) {
+    favorites.value.splice(favorites.value.indexOf(favoriteProduct));
+  } else {
+    favorites.value.push(product);
+  }
+
   localStorage.setItem("favorites", JSON.stringify(favorites.value));
 };
 </script>
@@ -38,7 +47,7 @@ const addToFavorite = (product: Product) => {
         <Button
           class="absolute left-full top-3 h-10 w-10 -translate-x-14 p-0"
           variant="outline"
-          @click="addToFavorite(product)"
+          @click="toggleFavorite(product)"
         >
           <span v-if="!favorites.find((item) => item.id === product.id)">
             <IconFavorite />
