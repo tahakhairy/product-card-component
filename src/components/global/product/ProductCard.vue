@@ -16,7 +16,7 @@ defineProps<{
 
 const quantity = ref(1);
 const favorites = ref<Product[]>(
-  JSON.parse(localStorage.getItem("favorites")! ?? []),
+  JSON.parse(localStorage.getItem("favorites")!) ?? [],
 );
 
 const { addToCart } = useCartStore();
