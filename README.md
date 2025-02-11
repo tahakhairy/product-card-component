@@ -17,7 +17,7 @@ npm run dev
 
 This is a dynamic product card component that displays an information of a product
 
-## Implementation
+## Tools
 
 The component is built with: 
   - Vue.js 3 with Composition API and TypeScript for type safety.
