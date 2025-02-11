@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "price": 99.99,
+    "description": "High-quality wireless headphones with noise cancellation",
+    "image": "/src/assets/images/wireless_headphones.jpg",
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "price": 699.99,
+    "description": "Latest smartphone with OLED display and advanced camera features",
+    "image": "",
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "Bluetooth Speaker",
+    "price": 49.99,
+    "description": "Portable Bluetooth speaker with deep bass and 10-hour battery life",
+    "image": "/src/assets/images/blutooth_speaker.jpg",
+    "inStock": true
+  },
+  {
+    "id": 4,
+    "name": "Gaming Mouse",
+    "price": 59.99,
+    "description": "Ergonomic gaming mouse with customizable RGB lighting",
+    "image": "/src/assets/images/gaming_mouse.jpg",
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "name": "Mechanical Keyboard",
+    "price": 89.99,
+    "description": "High-performance mechanical keyboard with programmable keys",
+    "image": "/src/assets/images/mechanical_keyboard.jpg",
+    "inStock": false
+  },
+  {
+    "id": 6,
+    "name": "Smartwatch",
+    "price": 199.99,
+    "description": "Feature-packed smartwatch with fitness tracking and heart rate monitor",
+    "image": "/src/assets/images/smartwatch.webp",
+    "inStock": true
+  },
+  {
+    "id": 7,
+    "name": "Laptop",
+    "price": 999.99,
+    "description": "Powerful laptop with high-resolution display and fast performance",
+    "image": "/src/assets/images/laptop.jpg",
+    "inStock": true
+  },
+  {
+    "id": 8,
+    "name": "Tablet",
+    "price": 329.99,
+    "description": "Lightweight tablet with a 10-inch display and long battery life",
+    "image": "",
+    "inStock": false
+  },
+  {
+    "id": 9,
+    "name": "External Hard Drive",
+    "price": 79.99,
+    "description": "1TB external hard drive for secure and fast data storage",
+    "image": "/src/assets/images/external_hard.jpg",
+    "inStock": true
+  },
+  {
+    "id": 10,
+    "name": "Webcam",
+    "price": 39.99,
+    "description": "HD webcam with built-in microphone for video calls",
+    "image": "/src/assets/images/webcam.webp",
+    "inStock": true
+  },
+  {
+    "id": 11,
+    "name": "Wireless Earbuds",
+    "price": 129.99,
+    "description": "True wireless earbuds with active noise cancellation",
+    "image": "/src/assets/images/wireless_earbuds.webp",
+    "inStock": true
+  }
+]
